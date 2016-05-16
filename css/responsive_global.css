@@ -1,0 +1,505 @@
+/* ESSENTIAL PAGE COMPONENTS */
+
+#pagecontainer {
+	min-height: 100%;
+	position: relative;
+	background-color: #E0C4A8;
+	height: 70vw;
+	padding: 0;
+	min-width:1024px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Montserrat, "sans serif";
+	color: #F2E6DA;
+	font-weight: normal;
+	height: 100%;
+}
+
+h1 {
+	font-size: 1.2vw;
+	vertical-align: middle;
+	padding: 0.5vw;
+}
+
+h2 {
+	font-size: 0.85vw;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 0.5;
+	margin-top: 1.5vw;
+}
+
+h3 {
+	font-size: 0.5vw;
+	text-align: center;
+	margin: 0;
+}
+
+h4 {
+	font-size: 0.85vw;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 0.5;
+	margin: 1vw 0 0.5vw;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #F2E6DA;
+}
+
+a:visited {
+	color: #F2E6DA;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.selected {
+	color: #E5DACF;
+	text-decoration: underline;
+}
+
+#main {
+	background-color: #E5DACF;
+	width:54%;
+	display:block;
+	height: 100%;
+	float: left;
+	margin:0;
+	padding:0;
+	background-color: #F2E6DA;
+	min-width: 500px;
+	overflow: auto;
+}
+
+#headercontainer {
+	width:100%;
+	display:block;
+	height:124px;
+	margin:0;
+	padding-bottom:0;
+	position: relative;
+}
+
+#awning {
+	background-image: url(../img/awning.svg);
+	background-repeat: repeat-x;
+	background-position: top;
+	width: 100%;
+	height: 141px;
+	z-index: 1;
+}
+
+#shoplogo {
+	margin: 0 auto;
+	width: 500px;
+	z-index:2;
+}
+
+.navcontainer {
+	font-family: "Quincho Script PERSONAL USE", serif;
+	font-size: 1.3125em;
+	background-color: #D9CEC3;
+	font-weight: normal;
+	float:left;
+	width:100%;
+	display: block;
+}
+
+.navcontainer ul {
+	margin: 0;
+	list-style: none;
+}
+
+.navcontainer li {
+	display: block;
+	width: 20%;
+	height: 60px;
+	float: left;
+	text-align:center;
+	background-color: #476FCC;
+	line-height: 1.5;
+}
+
+.first-list {
+	margin-left: 8%;
+}
+
+.last-list {
+	margin-right: 8%;
+}
+
+#spacer {
+	width: 2px;
+	height: 60px;
+	float: left;
+	background-color: #F2E6DA;
+}
+
+.inborder {
+	height: 40px;
+	margin: 5px;
+	border: 5px solid #F2E6DA;
+}
+
+.padding{
+	width:23%;
+	display:block;
+	height: 100%;
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+#slatleft {
+	background-image: url(../img/slatleft.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+	height: 100%;
+}
+
+#slatright {
+	background-image: url(../img/slatright.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	height: 100%;
+}
+
+#navdivider {
+	background-color: #E5DACF;
+	float: left;
+	width: 100%;
+	height: 5px;
+}
+
+#maincontainer {
+	width:100%;
+	height: initial;
+	display:block;
+	float: left;
+	margin: 15px 0 0;
+	padding:0;
+	background-color: #F2E6DA;
+	min-width: 500px;
+	overflow: auto;
+}
+
+.footercontainer {
+	position: absolute;
+	bottom: 0;
+	background-color: #E5DACF;
+	float: left;
+	width: 54%;
+	height: 60px;
+}
+
+.gotop  {
+	background-color: #476FCC;
+	height: 60px;
+	width: 20%;
+	float: left;
+	margin: 0 40%;
+}
+
+#gotop-image {
+	height: 15px;
+	width: 28px;
+	margin: 9px auto;
+}
+
+/* INDEX CONTENT INDEX CONTENT INDEX CONTENT INDEX CONTENT */
+
+#featureditem {
+	margin: 0 auto;
+	width: 51vw;
+	height: 20vw;
+	min-width: 550px;
+	min-height: 250px;
+}
+
+#featuredimage {
+	position: relative;
+	border: 15px solid #E5DACF;
+	background-image: url(../img/featured.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	width: 95%;
+	height: 93%;
+}
+
+#featurebar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.2;
+	width: 100%;
+	height: 4vw;
+	float: left;
+}
+
+.item-row {
+	width: 50vw;
+	height: 16vw;
+	margin: 15px 1.8vw 0;
+	min-width: 550px;
+}
+
+.front-page-item {
+	position: relative;
+	float: left;
+	background-color: #E5DACF;
+	width: 14vw;
+	height: 16vw;
+	min-width: 150px;
+	min-height: 150px;
+}
+
+.item-image {
+	float: left;
+	margin: 5%;
+	width: 90%;
+	height: 63%;
+	background-image: url(../img/item.jpg);
+	background-size: cover;
+}
+
+.item-info-bar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	float: left;
+	background-color: #476FCC;
+	margin: 0;
+	width: 100%;
+	height: 4.5vw;
+}
+
+.shop-item-info-bar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	float: left;
+	background-color: #476FCC;
+	margin: 0;
+	width: 100%;
+	height: 3.5vw;
+}
+
+.middle-margin {
+	margin: 0 4vw;
+}
+
+/* ABOUT CONTENT ABOUT CONTENT ABOUT CONTENT ABOUT CONTENT*/
+
+#about-container {
+	min-width: 520px;
+	min-height: 315px;
+	width: 50vw;
+	height: 30vw;
+	background-color: #E5DACF;
+	margin: 0 auto;
+	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.2);
+}
+
+#about-text-container {
+	color: #476FCC;
+	float: right;
+	width: 66%;
+	height: 90%;
+	background-color: #F2E6DA;
+	margin: 3% 3% 3% 0;
+	overflow: auto;
+}
+
+p.bulk {
+	font-family: Montserrat, "sans serif";
+	color: #476FCC;
+	font-size: 0.8em;
+	text-align: left;
+	margin: 5%;
+	white-space: pre-wrap;
+}
+
+#about-title {
+	font-family: "Quincho Script PERSONAL USE", serif;
+	font-size: 1.5em; 
+	vertical-align: middle;
+	padding-left: 30px;
+	line-height: 1;
+}
+
+.about-image-container {
+	min-width: 125px;
+	min-height: 125px;
+	width: 12.5vw;
+	height: 12vw;
+	background-color: #F2E6DA;
+	margin: 3%;
+	float: left;
+	z-index: 1;
+}
+
+.about-img {
+	height: 90%;
+	width: 90%;
+	margin: 5%;
+	background-size: cover;
+}
+
+/* SHOP CONTENT SHOP CONTENT SHOP CONTENT SHOP CONTENT*/
+
+.shop-page-item {
+	position: relative;
+	float: left;
+	background-color: #E5DACF;
+	width: 10vw;
+	height: 12vw;
+	min-width: 150px;
+	min-height: 150px;
+}
+
+.shop-margin {
+	margin: 0 1.25vw 1.5vw 1.25vw;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.4);
+	transition: opacity 200ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	margin: 10vw auto;
+	background-color: #E5DACF;
+	width: 53.5vw;
+	height: 26vw;
+	position: relative;
+	z-index: 2;
+	min-width: 500px;
+	min-height: 250px;
+}
+
+.popup .close {
+	position: absolute;
+	top: 0.3vw;
+	right: 0.9vw;
+	transition: all 200ms;
+	font-size: 2vw;
+	font-weight: bold;
+	text-decoration: none;
+	color: #F2E6DA;
+}
+
+.popup .close:hover {
+	color: #476FCC;
+}
+
+.popup-image {
+	position: relative;
+	float: left;
+	border: 0.8vw solid #F2E6DA;
+	width: 14vw;
+	height: 14vw;
+	min-width: 150px;
+	min-height: 150px;
+}
+
+#popup-content-box {
+	position: relative;
+	float: left;
+	background-color: #F2E6DA;
+	width: 30vw;
+	height: 21vw;
+	margin: 2.6vw 1vw 1vw 0;
+}
+
+#popup-copy {
+	position: absolute;
+	font-family: Montserrat, "sans serif";
+	font-size: 0.8vw;
+	color: #476FCC;
+	text-align: left;
+	float: left;
+	margin: 2vw 0.5vw 0.5vw 0.5vw;
+	white-space: pre-wrap;
+}
+
+.popup-title {
+	font-family: "Quincho Script PERSONAL USE", serif;
+	font-size: 1.4vw;
+	color: #476FCC;
+	text-align: left;
+	float: left;
+	margin: 0.5vw;
+}
+
+.basket-button {
+	width: 9vw;
+	height: 3.2vw;
+	background-color: #476FCC;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 1.5vw;
+}
+
+.basket-inborder {
+	height: 2vw;
+	margin: 0.3vw;
+	border: 0.3vw solid #F2E6DA;
+}
+
+.basket-text {
+	font-family: "Quincho Script PERSONAL USE", serif;
+	font-size: 1.3125vw;
+	font-weight: normal;
+	float:left;
+	width:100%;
+	display: block;
+	text-align: center;
+	margin-top: inherit;
+}
+
+#quantity-box {
+	width: 3.5vw;
+	height: 2vw;
+	margin: 1vw;
+	background-color: #E5DACF;
+	position: absolute;
+	bottom: 1.1vw;
+	right: 10.5vw;
+}
+
+#quantity-box-text {
+	font-family: Montserrat, "sans serif";
+	font-size: 0.8vw;
+	color: #476FCC;
+	float: right;
+	margin: 0.5vw;
+}
+
+#quantity-title {
+	position: absolute;
+	bottom: 2vw;
+	right: 15.5vw;
+}
