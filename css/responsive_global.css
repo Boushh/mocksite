@@ -21,13 +21,13 @@ body {
 }
 
 h1 {
-	font-size: 1.2vw;
+	font-size: 1.2em;
 	vertical-align: middle;
 	padding: 0.5vw;
 }
 
 h2 {
-	font-size: 0.85vw;
+	font-size: 0.85em;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 0.5;
@@ -35,13 +35,13 @@ h2 {
 }
 
 h3 {
-	font-size: 0.5vw;
+	font-size: 0.75em;
 	text-align: center;
 	margin: 0;
 }
 
 h4 {
-	font-size: 0.85vw;
+	font-size: 0.85em;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 0.5;
@@ -404,7 +404,7 @@ p.bulk {
 	top: 0.3vw;
 	right: 0.9vw;
 	transition: all 200ms;
-	font-size: 2vw;
+	font-size: 2em;
 	font-weight: bold;
 	text-decoration: none;
 	color: #F2E6DA;
@@ -436,7 +436,7 @@ p.bulk {
 #popup-copy {
 	position: absolute;
 	font-family: Montserrat, "sans serif";
-	font-size: 0.8vw;
+	font-size: 0.8em;
 	color: #476FCC;
 	text-align: left;
 	float: left;
@@ -446,7 +446,7 @@ p.bulk {
 
 .popup-title {
 	font-family: "Quincho Script PERSONAL USE", serif;
-	font-size: 1.4vw;
+	font-size: 1.4em;
 	color: #476FCC;
 	text-align: left;
 	float: left;
@@ -471,7 +471,7 @@ p.bulk {
 
 .basket-text {
 	font-family: "Quincho Script PERSONAL USE", serif;
-	font-size: 1.3125vw;
+	font-size: 1.3125em;
 	font-weight: normal;
 	float:left;
 	width:100%;
@@ -492,7 +492,7 @@ p.bulk {
 
 #quantity-box-text {
 	font-family: Montserrat, "sans serif";
-	font-size: 0.8vw;
+	font-size: 0.8em;
 	color: #476FCC;
 	float: right;
 	margin: 0.5vw;
